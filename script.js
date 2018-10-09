@@ -1,3 +1,4 @@
+//my day is amazing today!becyase i am amazing everyday
 // createnewsurl & headlineurl
 function getnewsurl(keyterm) {
 	var newsurl = "https://newsapi.org/v2/everything?q=";
