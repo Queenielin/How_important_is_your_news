@@ -1,0 +1,80 @@
+/*only search bar is in center, yet evrything should be at center
+also, the ackground of body is not black. and*/
+
+*/ body {
+    /*font-family:;*/
+    /*2nd PROBLEM::why is the background color not black!!??*/
+    background-color: black;
+    /* font-color: white; */
+    font-size: 12px;
+}
+
+h1 {
+    display: block;
+    text-align: center;
+}
+
+input {
+    display: block;
+    font-size: -3em;
+    /* font-color: aqua; */
+}
+
+button {
+    display: block;
+}
+
+.incenter {
+    margin: 20px auto;
+}
+
+#news {
+    width: 50%;
+    float: left;
+    display: inline;
+    background-color: black;
+    color: white;
+    position: relative;
+    text-align: center;
+    /* left: 100px; */
+    /* width: 50%; */
+}
+
+#newsmargin {
+    color: white;
+}
+
+#headline {
+    width: 50%;
+    float: right;
+    background-color: hotpink;
+    display: inline;
+    position: relative;
+    text-align: center;
+    /* left: 0px; */
+    /* width: 70%; */
+}
+
+#headlinemargin {
+    color: black;
+}
+
+/*#halfsizeonleft{
+	position: relative;
+	    right: 0px;
+       width: 50%;
+width:623.67px;
+}*/
+
+/*h1{
+	display: block; 
+	text-align: center;
+}
+input{ display: block; 
+font-size: -3em;
+font-color: aqua;}
+
+button{display: block; }*
+/*.incenter{margin: 20px auto;}*/
+
+/*.d1{margin:auto;}*/
