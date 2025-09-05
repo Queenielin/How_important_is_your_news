@@ -2,7 +2,7 @@
 // createnewsurl & headlineurl
 function getnewsurl(keyterm) {
 	var newsurl = "https://newsapi.org/v2/everything?q=";
-	var newsapi = "&from=2018-10-07&to=2018-09-28&apiKey=e44dd8d8d0b34b149aa43ed64228d7f4";
+	var newsapi = "&from=2018-10-07&to=2018-09-28&apiKey=ab7cf3d04a364e438fa203e7e829cf6f";
 	var wholenewsurl = newsurl + keyterm + newsapi;
 
 
