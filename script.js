@@ -2,13 +2,13 @@
 // createnewsurl & headlineurl
 function getnewsurl(keyterm) {
 	var newsurl = "https://newsapi.org/v2/everything?q=";
-	var newsapi = "&from=2018-10-07&to=2018-09-28&apiKey=e44dd8d8d0b34b149aa43ed64228d7f4";
+	var newsapi = "&from=2018-10-07&to=2018-09-28&apiKey=ab7cf3d04a364e438fa203e7e829cf6f";
 	var wholenewsurl = newsurl + keyterm + newsapi;
 
 
 	console.log("print the news api");
 	var headlineurl = "https://newsapi.org/v2/top-headlines?q=";
-	var headlineapi = "&from=2018-10-07&to=2018-09-28&apiKey=e44dd8d8d0b34b149aa43ed64228d7f4";
+	var headlineapi = "&from=2018-10-07&to=2018-09-28&apiKey=ab7cf3d04a364e438fa203e7e829cf6f";
 	var wholeheadlineurl = headlineurl + keyterm + headlineapi;
 	// usetheapitograbnews(wholeheadlineurl)
 	console.log("print the headline api:" + wholeheadlineurl + "going to requrest headline info");
